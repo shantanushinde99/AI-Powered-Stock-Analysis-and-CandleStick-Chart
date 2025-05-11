@@ -19,7 +19,7 @@ Here’s a glimpse of the dashboard’s sleek interface! 🖥️
 
 | **Dashboard Landing Page** | **Technical Analysis App** |
 |----------------------------|----------------------------|
-| Screenshot (107).png) | Screenshot (108).png |
+| ![Dashboard](images/Screenshot(107).png) | ![Technical Analysis](images/Screenshot(108).png) |
 
 ## ✨ Features
 
