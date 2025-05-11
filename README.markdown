@@ -67,7 +67,7 @@ Get started in just a few steps! 🔧
 Run the dashboard with a single command! 🏃‍♂️
 
 ```bash
-streamlit run dashboard.py
+streamlit run Home Page.py
 ```
 
 - Open your browser at `http://localhost:8501`.
@@ -108,7 +108,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Have questions or feedback? Reach out! ✉️
 
-- **GitHub**: [your-username](https://github.com/your-username)
-- **Email**: your.email@example.com
+- **GitHub**: [your-username](https://github.com/shantanushinde99)
+- **Email**: shantanushinde233@gmail.com
 
 Happy investing! 💰
