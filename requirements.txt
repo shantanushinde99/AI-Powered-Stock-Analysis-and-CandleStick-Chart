@@ -1,0 +1,8 @@
+yfinance
+streamlit
+pandas
+cufflinks
+plotly
+ta-lib
+numpy
+pandas_ta
