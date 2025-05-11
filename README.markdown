@@ -6,6 +6,7 @@ Welcome to the **AI Investment Dashboard**, a powerful Streamlit-based platform 
 - 📉 **Technical Analysis App**: Analyze stock trends with candlestick charts, technical indicators (e.g., SMA, RSI), intraday data, price alerts, and multi-stock comparisons.
 
 Built with Python, Streamlit, and yfinance, this dashboard is perfect for long-term investors and short-term traders alike. 🌟
+This is for Educational Purposes Only - Not Recommended for Professsional Uses
 
 ## 🎥 Demo Video
 
