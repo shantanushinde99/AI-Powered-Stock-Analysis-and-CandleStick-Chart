@@ -11,7 +11,7 @@ Built with Python, Streamlit, and yfinance, this dashboard is perfect for long-t
 
 Watch a quick demo of the AI Investment Dashboard in action! 📽️
 
-https://github.com/your-username/ai-investment-dashboard/blob/main/demo.mp4
+demo.mp4
 
 ## 🖼️ Screenshots
 
