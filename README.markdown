@@ -11,7 +11,7 @@ Built with Python, Streamlit, and yfinance, this dashboard is perfect for long-t
 
 Watch a quick demo of the AI Investment Dashboard in action! 📽️
 
-[demo.mp4](https://github.com/shantanushinde99/AI-Powered-Stock-Analysis-and-CandleStick-Chart/blob/main/demo.mp4)
+[demo](https://github.com/shantanushinde99/AI-Powered-Stock-Analysis-and-CandleStick-Chart/blob/main/demo.mp4)
 
 ## 🖼️ Screenshots
 
