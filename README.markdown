@@ -37,7 +37,7 @@ Here’s a glimpse of the dashboard’s sleek interface! 🖥️
 
 ## 🛠️ Installation
 
-Get started in just a few steps! 🔧
+Get started in just a few steps! 🔧 Use Python 3.11 
 
 1. **Clone the Repository**:
    ```bash
