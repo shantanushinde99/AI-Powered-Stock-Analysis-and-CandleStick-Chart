@@ -6,7 +6,7 @@ from agno.models.google import Gemini
 import plotly.graph_objects as go
 
 # Set environment variable for Google API
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCBq2Y2wjEiY9LcOPLH8-oNXYaHRtD0zEo"
+os.environ["GOOGLE_API_KEY"] = "" #place your own API key of Gemini
 
 # Function to fetch and compare stock data
 def compare_stocks(symbols):
