@@ -108,7 +108,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Have questions or feedback? Reach out! ✉️
 
-- **GitHub**: [your-username](https://github.com/shantanushinde99)
+- **GitHub**: [Shantanu Shinde](https://github.com/shantanushinde99)
 - **Email**: shantanushinde233@gmail.com
 
 Happy investing! 💰
