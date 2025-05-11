@@ -90,17 +90,6 @@ Recent updates to make your experience even better! 🎉
 - **Robust Datetime Handling**: Fixed datetime issues for accurate date range filtering.
 - **Enhanced AI Recommendations** (Investment Plan App): Improved BUY/SELL signals with sentiment analysis.
 
-## 🤝 Contributing
-
-We welcome contributions! 🙌 Follow these steps:
-
-1. Fork the repository.
-2. Create a branch: `git checkout -b feature/your-feature`.
-3. Commit changes: `git commit -m "Add your feature"`.
-4. Push to the branch: `git push origin feature/your-feature`.
-5. Open a pull request.
-
-Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
 ## 📜 License
 
@@ -113,4 +102,4 @@ Have questions or feedback? Reach out! ✉️
 - **GitHub**: [Shantanu Shinde](https://github.com/shantanushinde99)
 - **Email**: shantanushinde233@gmail.com
 
-Happy investing! 💰
+
