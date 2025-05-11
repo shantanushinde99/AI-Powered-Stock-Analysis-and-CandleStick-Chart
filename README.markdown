@@ -12,7 +12,7 @@ This is for Educational Purposes Only - Not Recommended for Professsional Uses
 
 Watch a quick demo of the AI Investment Dashboard in action! 📽️
 
-[Demo](https://github.com/shantanushinde99/AI-Powered-Stock-Analysis-and-CandleStick-Chart/blob/main/demo1.gif)
+(https://github.com/shantanushinde99/AI-Powered-Stock-Analysis-and-CandleStick-Chart/blob/main/images/Demo1.gif)
 
 ## 🖼️ Screenshots
 
