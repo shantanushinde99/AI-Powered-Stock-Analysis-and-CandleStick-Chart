@@ -77,18 +77,6 @@ streamlit run dashboard.py
   - Select a date range and data interval (`1d`, `1h`, `30m`).
   - Add technical indicators and price alerts for analysis.
 
-## 📋 Project Structure
-
-```plaintext
-ai-investment-dashboard/
-├── dashboard.py              # Landing page for the dashboard
-├── app.py                   # Technical Analysis App
-├── images/                  # Screenshots and images
-│   ├── dashboard.png
-│   └── technical_analysis.png
-├── demo.mp4                 # Demo video (optional)
-└── README.md                # This file
-```
 
 ## 🌟 What's New
 
