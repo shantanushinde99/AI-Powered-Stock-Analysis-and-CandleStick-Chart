@@ -14,6 +14,7 @@ Watch a quick demo of the AI Investment Dashboard in action! 📽️
 
 ![Demo](https://github.com/shantanushinde99/AI-Powered-Stock-Analysis-and-CandleStick-Chart/blob/main/images/Demo1.gif?raw=true)
 
+Full Video - 
 
 ## 🖼️ Screenshots
 
