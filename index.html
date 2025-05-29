@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Dashboard - Apple Inc.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+      <div class="profile">
+        <div class="profile-icon">👤</div>
+        <div class="profile-info">
+          <div class="profile-name">Raja Ansh Oktav</div>
+          <div class="profile-balance">$56,320.00</div>
+        </div>
+        <div class="profile-dropdown">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 9l6 6 6-6"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="menu-section">
+        <div class="menu-title">MENU</div>
+        <nav class="menu">
+          <a href="#" class="menu-item active">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+              <polyline points="9 22 9 12 15 12 15 22"/>
+            </svg>
+            Dashboard
+          </a>
+          <a href="#" class="menu-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="5" width="20" height="14" rx="2"/>
+              <line x1="2" y1="10" x2="22" y2="10"/>
+            </svg>
+            My asset
+          </a>
+          <a href="#" class="menu-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="20" x2="18" y2="10"/>
+              <line x1="12" y1="20" x2="12" y2="4"/>
+              <line x1="6" y1="20" x2="6" y2="14"/>
+            </svg>
+            Top chart
+          </a>
+          <a href="#" class="menu-item">
+            <span class="crypto-icon">₿</span>
+            Crypto
+            <span class="badge">new</span>
+          </a>
+        </nav>
+      </div>
+
+      <div class="menu-section">
+        <div class="menu-title">ACCOUNT</div>
+        <nav class="menu">
+          <a href="#" class="menu-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+            Account setting
+          </a>
+          <a href="#" class="menu-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+            </svg>
+            Setting
+          </a>
+          <a href="#" class="menu-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/>
+            </svg>
+            Help center
+          </a>
+        </nav>
+      </div>
+
+      <div class="watchlist-section">
+        <div class="watchlist-header">
+          <div class="watchlist-title">WATCHLIST</div>
+          <div class="watchlist-period">
+            24h
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M6 9l6 6 6-6"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="watchlist">
+          <div class="watchlist-item">
+            <div class="stock-icon">A</div>
+            <div class="stock-info">
+              <div class="stock-symbol">AMZN</div>
+              <div class="stock-name">Amazon</div>
+            </div>
+            <div class="stock-chart down">
+              <svg viewBox="0 0 100 30">
+                <path d="M0,15 L20,20 L40,10 L60,18 L80,5 L100,15" fill="none" stroke="#f43f5e" stroke-width="2"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="watchlist-item">
+            <div class="stock-icon spot">S</div>
+            <div class="stock-info">
+              <div class="stock-symbol">SPOT</div>
+              <div class="stock-name">Spotify SA</div>
+            </div>
+            <div class="stock-chart up">
+              <svg viewBox="0 0 100 30">
+                <path d="M0,15 L20,10 L40,20 L60,5 L80,15 L100,5" fill="none" stroke="#22c55e" stroke-width="2"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="watchlist-item">
+            <div class="stock-icon tesla">T</div>
+            <div class="stock-info">
+              <div class="stock-symbol">TSLA</div>
+              <div class="stock-name">Tesla Inc.</div>
+            </div>
+            <div class="stock-chart up">
+              <svg viewBox="0 0 100 30">
+                <path d="M0,20 L20,15 L40,25 L60,10 L80,20 L100,5" fill="none" stroke="#22c55e" stroke-width="2"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="breadcrumb">
+        <a href="#">Dashboard</a>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+        <a href="#">Watchlist</a>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+        <span>Apple</span>
+      </div>
+
+      <div class="stock-header">
+        <div class="stock-logo">🍎</div>
+        <div class="stock-title">
+          <h1>Apple INC.</h1>
+          <div class="stock-exchange">NASDAQ: AAPL</div>
+        </div>
+        <div class="stock-actions">
+          <button class="btn-follow">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="5" x2="12" y2="19"/>
+              <line x1="5" y1="12" x2="19" y2="12"/>
+            </svg>
+            Follow
+          </button>
+          <button class="btn-buy">Buy stock</button>
+          <button class="btn-more">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="1"/>
+              <circle cx="19" cy="12" r="1"/>
+              <circle cx="5" cy="12" r="1"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="tabs">
+        <button class="tab active" data-tab="overview">OVERVIEW</button>
+        <button class="tab" data-tab="analyst">ANALYST</button>
+        <button class="tab" data-tab="company">COMPANY</button>
+        <button class="tab" data-tab="financials">FINANCIALS</button>
+      </div>
+
+      <div class="stock-price">
+        <div class="current-price">
+          <div class="price-value">$147.04</div>
+          <div class="price-change positive">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="7" y1="17" x2="17" y2="7"/>
+              <polyline points="7 7 17 7 17 17"/>
+            </svg>
+            1.47%
+          </div>
+        </div>
+
+        <div class="chart-container">
+          <div class="y-axis">
+            <div>145</div>
+            <div>140</div>
+            <div>135</div>
+            <div>130</div>
+          </div>
+          <div class="chart">
+            <svg viewBox="0 0 500 200">
+              <path d="M0,100 C50,80 100,120 150,100 C200,80 250,120 300,80 C350,40 400,120 450,60 C480,30 500,50 500,40" fill="none" stroke="#22c55e" stroke-width="2"/>
+              <circle cx="300" cy="80" r="4" fill="#22c55e"/>
+              <line x1="300" y1="0" x2="300" y2="200" stroke="#374151" stroke-dasharray="4"/>
+            </svg>
+          </div>
+          <div class="time-periods">
+            <button class="period" data-period="1H">1H</button>
+            <button class="period active" data-period="1D">1D</button>
+            <button class="period" data-period="1W">1W</button>
+            <button class="period" data-period="1M">1M</button>
+            <button class="period" data-period="1Y">1Y</button>
+            <button class="period" data-period="all">All time</button>
+          </div>
+        </div>
+
+        <div class="time-labels">
+          <div>10:10 PM</div>
+          <div>12:10 PM</div>
+          <div>02:10 AM</div>
+          <div>04:10 AM</div>
+          <div>06:10 AM</div>
+          <div>08:10 AM</div>
+          <div>10:10 AM</div>
+        </div>
+
+        <div class="trading-data">
+          <div class="data-item">
+            <div class="data-label">Day's open</div>
+            <div class="data-value">$145.26</div>
+          </div>
+          <div class="data-item">
+            <div class="data-label">Closing price</div>
+            <div class="data-value">$145.26</div>
+          </div>
+          <div class="data-item">
+            <div class="data-label">Volume</div>
+            <div class="data-value">$64.5M</div>
+          </div>
+        </div>
+
+        <div class="trading-data two-columns">
+          <div class="data-item">
+            <div class="data-label">Intraday High</div>
+            <div class="data-value">$147.55</div>
+          </div>
+          <div class="data-item">
+            <div class="data-label">Intraday Low</div>
+            <div class="data-value">$145.00</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="info-sidebar">
+      <div class="about-section">
+        <div class="section-header">
+          <h2>About</h2>
+          <a href="#" class="see-more">
+            See more
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"/>
+            </svg>
+          </a>
+        </div>
+        <p class="about-text">
+          Apple Inc. is an American multinational technology company that specializes in consumer electronics,
+          software and online services headquartered in the Cupertino, California, United States.
+        </p>
+        <div class="social-links">
+          <a href="#" class="social-link website">
+            <div class="social-icon">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+            Official Website
+          </a>
+          <a href="#" class="social-link instagram">
+            <div class="social-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+              </svg>
+            </div>
+            Instagram
+          </a>
+        </div>
+      </div>
+
+      <div class="big-change-section">
+        <div class="section-header">
+          <h2>Big change</h2>
+          <a href="#" class="see-more">
+            See more
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="change-cards">
+          <div class="change-card">
+            <div class="change-header">
+              <div>DATE</div>
+              <div>24h change</div>
+            </div>
+            <div class="change-data">
+              <div class="change-date">30 April 2022</div>
+              <div class="change-value negative">
+                -12.50%
+                <svg class="mini-chart" viewBox="0 0 100 30">
+                  <path d="M0,5 L20,15 L40,10 L60,20 L80,5 L100,15" fill="none" stroke="#f43f5e" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="change-card">
+            <div class="change-header">
+              <div>DATE</div>
+              <div>24h change</div>
+            </div>
+            <div class="change-data">
+              <div class="change-date">24 Februari 2022</div>
+              <div class="change-value negative">
+                -9.87%
+                <svg class="mini-chart" viewBox="0 0 100 30">
+                  <path d="M0,15 L20,20 L40,5 L60,25 L80,10 L100,20" fill="none" stroke="#f43f5e" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="change-card">
+            <div class="change-header">
+              <div>DATE</div>
+              <div>24h change</div>
+            </div>
+            <div class="change-data">
+              <div class="change-date">1 December 2021</div>
+              <div class="change-value positive">
+                +24.85%
+                <svg class="mini-chart" viewBox="0 0 100 30">
+                  <path d="M0,20 L20,15 L40,25 L60,5 L80,15 L100,10" fill="none" stroke="#22c55e" stroke-width="2"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="news-section">
+        <div class="section-header">
+          <h2>News</h2>
+          <a href="#" class="see-more">
+            See more
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="news-card">
+          <div class="news-image"></div>
+          <div class="news-content">
+            <div class="news-source">bloomberg.com</div>
+            <h3 class="news-title">Apple Plans Extreme Sports Watch With Larger Screen, Metal Case</h3>
+            <div class="news-date">3 days ago</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
